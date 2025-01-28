@@ -1,0 +1,9 @@
+.tic-tac-toe-container{
+    width: 40vmin;
+    /* height: 40vmin; */
+    aspect-ratio: 1;
+    display:grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 1px dotted black;
+}

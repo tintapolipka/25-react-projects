@@ -1,0 +1,13 @@
+#Github-profile-img-container{
+    border-radius: 15px;
+    background-color: rgb(205, 255, 235);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.rounded{
+    border-radius: 50%;
+    width: 50vmin;
+    height: 50vmin;
+}

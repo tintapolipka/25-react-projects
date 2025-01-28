@@ -1,0 +1,27 @@
+.card{
+    width:400px;
+    max-width: 90vmin;
+    background-color: rgb(66, 201, 156);
+    border-radius: 1.5vmin;
+    padding: 5vmin;
+}
+
+.space-between{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.weather-input{
+    border-width: 0px;
+    border-radius: 5px;
+    width: 30%;
+    padding: 10px;
+}
+
+.weather-btn{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+}

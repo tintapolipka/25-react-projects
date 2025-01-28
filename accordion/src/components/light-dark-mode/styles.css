@@ -1,0 +1,15 @@
+:root{
+    --light-dark-background: #ff7a7a;
+    --light-dark-color: #1c331f;
+    --light-dark-inverse: #ced12b;
+}
+
+.light-dark-container{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--light-dark-inverse);
+}
+.light-dark-button{
+    background-color: var(--light-dark-background);
+    color: var(--light-dark-color);
+}

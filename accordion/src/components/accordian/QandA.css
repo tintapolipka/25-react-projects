@@ -1,0 +1,19 @@
+.expanded-text{
+    margin: 0;
+    display: grid;
+    grid-template-rows: 0fr;
+    background-color: blue;
+    transition: grid-template-rows 1000ms;
+   
+}
+
+.expanded-text > p{
+    overflow: hidden;
+    margin: 0.1em;
+   
+}
+
+.expanded-text[aria-hidden="false"]{
+    grid-template-rows: 1fr;
+
+}
